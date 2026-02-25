@@ -28,5 +28,5 @@ I use other stuff, for web dev, deployment, database management... But it's not 
   <img height="42" width="42" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"/>
 </a>&#8287;&#8287;&#8287;
 <a href="https://app.hackthebox.com/users/2635942" target="_blank">
-  <img height="42" width="42" src="https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9hcHAuaGFja3RoZWJveC5jb20vaW1hZ2VzL0hUQi1mYXZpY29uL2FwcGxlLXRvdWNoLWljb24ucG5n.png"/>
+  <img height="42" width="42" src="https://app.hackthebox.com/images/HTB-favicon/apple-touch-icon.png"/>
 </a>
