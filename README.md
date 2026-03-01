@@ -1,4 +1,4 @@
-## About Me
+## Whoami
 
 I'm a 2nd year Computer Science student, located in France, and passionate about **cybersecurity**.<br>
 I'm open to doing a lot of things, i enjoy continuously learning.<br>
