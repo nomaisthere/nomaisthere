@@ -1,4 +1,4 @@
-## Whoami
+## About Me
 
 I'm a 2nd year Computer Science student, located in France, and passionate about **cybersecurity**.<br>
 I'm open to doing a lot of things, i enjoy continuously learning.<br>
@@ -26,7 +26,7 @@ I use other stuff, for web dev, deployment, database management... But it's not 
 ## Links
 <a href="https://www.linkedin.com/in/noambouillet/" target="_blank">
   <img height="42" width="42" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"/>
-</a>&#8287;&#8287;&#8287;
+</a>
 <a href="https://app.hackthebox.com/users/2635942" target="_blank">
   <img height="42" width="42" src="https://app.hackthebox.com/images/HTB-favicon/apple-touch-icon.png"/>
 </a>
