@@ -10,7 +10,7 @@ Don't hesitate to contact me if you have any project ideas !
 
 - **Web Pentesting**: Identifying design and implementation flaws in web applications and APIs, from access control issues to protocol misuse.
 - **Enterprise Infrastructure**: Mapping trust relationships in Active Directory, abusing misconfigurations, and chaining weaknesses in complex Windows environments.
-- **Reverse/Pwn**: Lots of low-level knowledge in C, C++ and ASM, understanding compiling properties and how to reverse code (gdb 🙀).
+- **Reverse/Pwn**: Lots of low-level knowledge in C, C++ and ASM, understanding compiling properties and how to reverse code.
 - **Offensive Tooling**: Writing small PoCs and scripts to automate exploitation and repetitive attack workflows. 
 - **Reporting**: An exploit isn't an exploit if you can't explain it to the client.
 
