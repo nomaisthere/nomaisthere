@@ -14,7 +14,6 @@ I'm open to doing a lot of things, I enjoy continuously learning. Contact me if 
 
 --- 
 
-Cat of the day (come back tomorrow for another one): 
 <!-- CAT_START -->
 >Cat of the day - May 17, 2026 (come back tomorrow for another one): 
 
