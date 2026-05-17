@@ -19,9 +19,3 @@ I care a lot about understanding *why* something works, not just that it does.
 
 ![](https://cdn2.thecatapi.com/images/MTc0MTc0Nw.gif)
 <!-- CAT_END -->
-
----
-
-<!-- LASTFM_START -->
-last played: [B's On The Table (feat. 21 Savage) — Drake](https://www.last.fm/music/Drake/_/B%27s+On+The+Table+(feat.+21+Savage))
-<!-- LASTFM_END -->
