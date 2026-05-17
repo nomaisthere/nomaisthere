@@ -27,20 +27,17 @@ jobs:
           CAT_URL="${{ steps.cat.outputs.url }}"
           TODAY=$(date +"%B %d, %Y")
 
-          python3 - <<EOF
-          import re
+          python3 - "$CAT_URL" "$TODAY" <<EOF
+          import re, sys
+
+          cat_url = sys.argv[1]
+          today = sys.argv[2]
 
           with open("README.md", "r") as f:
               content = f.read()
 
-          new_block = f"""<!-- CAT_START -->
-          > Cat of the day - {TODAY} (come back tomorrow for another one):
-          
-          ![]({CAT_URL})
-          <!-- CAT_END -->"""
+          new_block = "<!-- CAT_START -->\n>Cat of the day - " + today + " (come back tomorrow for another one): \n\n![](" + cat_url + ")\n<!-- CAT_END -->"
 
-          new_block = "\n".join(line.strip() for line in new_block.strip().splitlines())
-          new_block = f"<!-- CAT_START -->\n>Cat of the day - {TODAY} (come back tomorrow for another one): \n\n![]({CAT_URL})\n<!-- CAT_END -->"
           updated = re.sub(
               r"<!-- CAT_START -->.*?<!-- CAT_END -->",
               new_block,
