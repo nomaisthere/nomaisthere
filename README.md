@@ -19,3 +19,8 @@ Contact me if you have any project ideas !<br>
 
 ![](https://cdn2.thecatapi.com/images/MTc0MTc0Nw.gif)
 <!-- CAT_END -->
+
+---
+
+<!-- LASTFM_START -->
+<!-- LASTFM_END -->
