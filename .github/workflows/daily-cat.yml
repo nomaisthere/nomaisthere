@@ -1,0 +1,60 @@
+name: 🐱 Daily Cat
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-cat:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch a random cat
+        id: cat
+        run: |
+          RESPONSE=$(curl -s "https://api.thecatapi.com/v1/images/search")
+          URL=$(echo $RESPONSE | python3 -c "import sys,json; print(json.load(sys.stdin)[0]['url'])")
+          echo "url=$URL" >> $GITHUB_OUTPUT
+
+      - name: Update README
+        run: |
+          CAT_URL="${{ steps.cat.outputs.url }}"
+          TODAY=$(date +"%B %d, %Y")
+
+          python3 - <<EOF
+          import re
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_block = f"""<!-- CAT_START -->
+          > Cat of the day - {TODAY} (come back tomorrow for another one):
+          
+          ![]({CAT_URL})
+          <!-- CAT_END -->"""
+
+          new_block = "\n".join(line.strip() for line in new_block.strip().splitlines())
+          new_block = f"<!-- CAT_START -->\n>Cat of the day - {TODAY} (come back tomorrow for another one): \n\n![]({CAT_URL})\n<!-- CAT_END -->"
+          updated = re.sub(
+              r"<!-- CAT_START -->.*?<!-- CAT_END -->",
+              new_block,
+              content,
+              flags=re.DOTALL
+          )
+          with open("README.md", "w") as f:
+              f.write(updated)
+          EOF
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🐱 daily cat drop $(date +%Y-%m-%d)" || echo "No changes"
+          git push
