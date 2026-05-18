@@ -17,5 +17,5 @@ I care a lot about understanding *why* something works, not just that it does.
 <!-- CAT_START -->
 >Cat of the day - May 18, 2026 (come back tomorrow for another one): 
 
-![](https://cdn2.thecatapi.com/images/6u3.jpg)
+![](https://cdn2.thecatapi.com/images/8p0.jpg)
 <!-- CAT_END -->
