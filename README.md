@@ -12,9 +12,13 @@
 
 [![Languages I use on a regular](https://skillicons.dev/icons?i=c,cpp,cs,rust,py,bash)](https://nomaisthere.vercel.app)
 
+---
+
 ### Web
 
 [![Frameworks I use on a regular](https://skillicons.dev/icons?i=js,typescript,angular,dotnet,react,nextjs)](https://nomaisthere.vercel.app)
+
+---
 
 ### Everyday Stuff
 
