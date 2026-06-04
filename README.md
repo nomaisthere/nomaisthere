@@ -37,7 +37,7 @@ I use other stuff, for infrastructure, database management, AI... But it's not m
 --- 
 
 <!-- CAT_START -->
->Cat of the day - June 03, 2026 (come back tomorrow for another one): 
+>Cat of the day - June 04, 2026 (come back tomorrow for another one): 
 
-![](https://cdn2.thecatapi.com/images/bi8.gif)
+![](https://cdn2.thecatapi.com/images/d1i.jpg)
 <!-- CAT_END -->
