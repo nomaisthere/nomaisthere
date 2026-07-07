@@ -1,7 +1,7 @@
 ## About me
 
 - My name is Noam, I'm a 2nd year Computer Science student, located in France, and passionate about **cybersecurity**. <br>
-- I primarly use C/C++ and Python, actively learning Rust.<br>
+- I primarly use C/C++ and Python, some web stacks too.<br>
 - I care a lot about understanding *why* something works, not just that it does.
 
 ---
