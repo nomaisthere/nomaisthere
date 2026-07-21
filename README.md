@@ -1,40 +1,35 @@
+# Hi I'm Noam 👋
+
 ## About me
 
-- My name is Noam, I'm a 2nd year Computer Science student, located in France, and passionate about **cybersecurity**. <br>
-- I primarly use C/C++ and Python, some web stacks too.<br>
-- I care a lot about understanding *why* something works, not just that it does.
+I'm a second-year CS student in France. I write backend and systems-level code: mostly Go, C, C++, and Python.  
+I'm most interested in the parts of a system that are hard to get right: concurrency, failure handling, what happens under load.
 
----
+My first focus was offensive cybersecurity, I spent a lot of time on HackTheBox, it helped me to develop skills in web security, cryptography, threat handling...
 
-## Tech Stack i'm comfortable with
+## My strengths
 
-### Languages
+- Backend and systems programming in Go, C, C++, and Python
+- Infrastructure and containerized deployment (Docker, Kubernetes)
+- OffSec on Active Directory, web apps, cloud... 
 
-[![Languages I use on a regular](https://skillicons.dev/icons?i=c,cpp,cs,rust,py,bash)](https://nomaisthere.vercel.app)
-
----
-
-### Web
-
-[![Frameworks I use on a regular](https://skillicons.dev/icons?i=js,typescript,angular,dotnet,react,nextjs)](https://nomaisthere.vercel.app)
-
----
-
-### Everyday Stuff
-
-[![Other stuff I use](https://skillicons.dev/icons?i=docker,vim,git,linux)](https://nomaisthere.vercel.app)
-
-I use other stuff, for infrastructure, database management, AI... But it's not my main focus.
-
----
-
-## Links
+## Contact
 
 - [Linkedin](https://www.linkedin.com/in/noambouillet/)
 - [HackTheBox](https://app.hackthebox.com/users/2635942)
 - [Blog](https://nomaisthere.vercel.app/)
 
 --- 
+
+<details>
+<summary>Some links to check out if you're curious</summary>
+<sub><br></sub>
+  
+- [Xiangqi](https://play.xiangqi.com/lessons) : chinese chess, fun game to play if you want to learn a new board game.
+- [Functional Programming in Scala](https://github.com/xiaozhiliaoo/ScalaBooks/blob/main/Functional-Programming-in-Scala.pdf) : very interesting book on functional programming. Just try it out.
+- [Kymi](https://geoffmendelson.bandcamp.com/album/all-around-someone-else) : not the chinese llm model, but some cool music.
+
+</details>
 
 <!-- CAT_START -->
 >Cat of the day - July 20, 2026 (come back tomorrow for another one): 
