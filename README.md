@@ -32,7 +32,7 @@ My first focus was offensive cybersecurity, I spent a lot of time on HackTheBox,
 </details>
 
 <!-- CAT_START -->
->Cat of the day - August 04, 2026 (come back tomorrow for another one): 
+>Cat of the day - August 05, 2026 (come back tomorrow for another one): 
 
-![](https://cdn2.thecatapi.com/images/MTg1MDU4OQ.jpg)
+![](https://cdn2.thecatapi.com/images/MTg1OTc3Mw.jpg)
 <!-- CAT_END -->
