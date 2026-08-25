@@ -2,7 +2,7 @@
 
 ## About me
 
-I'm a second-year CS student in France. I write backend and systems-level code: mostly C++, C, Python, and Go.  
+I'm a third-year CS student in France. I write backend and systems-level code: mostly C++, C, Python, and Go.  
 I'm most interested in the parts of a system that are hard to get right: concurrency, failure handling, what happens under load.
 
 My first focus was offensive cybersecurity, I spent a lot of time on HackTheBox, it helped me to develop skills in web security, cryptography, threat handling...
